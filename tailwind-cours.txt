@@ -1,0 +1,22 @@
+
+
+** images
+	- w-full h-full permet l'image d'occuper toute l'espace allouer
+	-object-cover object-center rends l'image plus net en faisant les découpages possibles
+	-aspect-square met l'image dans un format carré quelque soit sa taille
+
+** text 
+	-text
+
+- justify-between pour mettre de l'espace entre 
+- item-center pour les centrer verticalement
+- max-x-8xl mx-auto definir une marge egal à gauche et à droite de ligne 
+- grid grid-cols-3 definir un gris de trois colonnes  
+- stiky top-0 pour que lorsque l'on scroll le header reste coller à la tête de la page
+	si des composants s'aligne sur une meme ligne et qu'on veut que l'un des composants se colle
+	il faut que celui-ci n'est pas la même longueur que les autres 
+- divide-y pour separer par un trait
+- font-medium pour le font de text
+
+
+
