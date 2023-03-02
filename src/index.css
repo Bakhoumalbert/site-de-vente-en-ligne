@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-dark: #12aec6;
+  --primary-light: #73c3bf;
+}
+
+
+@layer base{
+  h1 {
+    /*ici au fuir et a mesure que l'on augmente la page le texte augmente de taille*/
+    @apply text-[var(--primary-dark)]
+  }
+  button {
+    /*de --primary-dark a la --primary-ligth
+    nous allons voir nos boutton Recherche et Compte de la barre deroulante la couleur qui va du violet foncer vers le violet claire*/
+    @apply p-2.5 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white;
+  }
+}
